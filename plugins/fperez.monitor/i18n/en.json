@@ -1,0 +1,19 @@
+{
+  "display.settings": "Display settings",
+  "display.name": "%1 · %2 (%3)",
+  "display.showNumbers": "Show display numbers",
+  "display.hideNumbers": "Hide display numbers",
+  "display.enable": "Enable display",
+  "display.disable": "Disable display",
+  "display.orientation": "Orientation",
+  "display.landscape": "Landscape (0°)",
+  "display.portrait": "Portrait (90°)",
+  "display.landscapeFlipped": "Landscape (180°)",
+  "display.portraitFlipped": "Portrait (270°)",
+  "display.mode": "Resolution and refresh rate",
+  "display.maximumAll": "Use maximum resolution on all",
+  "display.maximum": "Use maximum resolution",
+  "display.modeValue": "%1 × %2 at %3 Hz",
+  "display.arrange": "Drag displays to match their physical position",
+  "display.failed": "Hyprland could not apply the display change."
+}
