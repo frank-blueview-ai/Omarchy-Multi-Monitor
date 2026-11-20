@@ -4,7 +4,7 @@
   "name": "My Display",
   "version": "1.0.0",
   "author": "Omarchy",
-  "description": "Brightness slider and laptop display controls",
+  "description": "Identify, arrange, rotate, and configure connected monitors",
   "kinds": [
     "bar-widget"
   ],
@@ -13,7 +13,7 @@
   },
   "barWidget": {
     "displayName": "My Display",
-    "description": "Brightness slider and laptop display controls",
+    "description": "Identify, arrange, rotate, and configure connected monitors",
     "category": "System",
     "allowMultiple": false
   },

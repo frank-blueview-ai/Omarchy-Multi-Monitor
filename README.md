@@ -10,21 +10,21 @@ A **My Display** bar widget for Omarchy 4.5 and Hyprland's Lua configuration. It
 
 ## Install
 
-From a checkout of this repository, copy the plugin into Omarchy's user plugin directory. If the directory already contains your own changes to this widget, back it up before copying.
+This widget uses Omarchy 4.5's Quickshell UI, its bundled display and brightness commands, and `hyprctl` with Lua monitor rules. These dependencies ship with Omarchy 4.5.
 
 ```sh
-mkdir -p ~/.config/omarchy/plugins
-cp -r plugins/fperez.monitor ~/.config/omarchy/plugins/
-omarchy restart shell
+omarchy plugin add https://github.com/frank-blueview-ai/Omarchy-Multi-Monitor --enable
 ```
 
-Add **My Display** to your bar through Omarchy's widget settings, or run:
+The widget appears as **My Display**. If you already have the stock **Display** widget or a local clone on the bar, remove the old widget from the bar before enabling this one. Both versions use the same Display IPC target. If your existing local plugin has the ID `fperez.monitor`, back it up before replacing it.
+
+## Remove
 
 ```sh
-omarchy bar put fperez.monitor
+omarchy plugin remove fperez.monitor
 ```
 
-If you already have the stock **Display** widget on the bar, replace it with **My Display** in widget settings. Both versions use the same Display IPC target.
+This removes the widget. Any monitor rules you manually saved to Hyprland's configuration can be edited separately.
 
 ## Save a layout across reloads
 
