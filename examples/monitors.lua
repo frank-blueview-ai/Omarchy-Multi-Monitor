@@ -7,9 +7,9 @@
 local omarchy_monitor_scale = "auto"
 hl.monitor({ output = "", mode = "preferred", position = "auto", scale = omarchy_monitor_scale })
 -- External displays, left to right: portrait DP-4, landscape DP-5, ViewSonic DP-3.
-hl.monitor({ output = "DP-4", mode = "1920x1080@60", position = "0x14", scale = 2, transform = 1 })
-hl.monitor({ output = "DP-5", mode = "1920x1080@60", position = "540x14", scale = 1, transform = 0 })
-hl.monitor({ output = "DP-3", mode = "1920x1080@60", position = "2460x0", scale = 1, transform = 0 })
+hl.monitor({ output = "DP-4", mode = "1920x1080@60", position = "0x14", scale = 1.25, transform = 1 })
+hl.monitor({ output = "DP-5", mode = "1920x1080@60", position = "864x14", scale = 1, transform = 0 })
+hl.monitor({ output = "DP-3", mode = "1920x1080@60", position = "2784x0", scale = 1, transform = 0 })
 
 -- Configure a specific monitor.
 -- hl.monitor({ output = "DP-2", mode = "2560x1440@144", position = "0x0", scale = 1 })

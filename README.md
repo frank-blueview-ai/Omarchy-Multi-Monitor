@@ -30,7 +30,7 @@ This removes the widget. Any monitor rules you manually saved to Hyprland's conf
 
 The card applies arrangement, orientation, mode, and enable/disable changes to the live Hyprland session. To make a layout persistent, copy the relevant rules from [the example monitor configuration](examples/monitors.lua) into your own `~/.config/hypr/monitors.lua`, adjusting connector names and positions for your setup. Find your connectors and their advertised modes with `hyprctl monitors all`.
 
-The example captures three external displays, ordered DP-4, DP-5, DP-3 from left to right. DP-4 is portrait at 200% scale. DP-5 and DP-3 are landscape at 100%. All three use 1920×1080 at 60 Hz. Positions use scaled, rotated dimensions.
+The example captures three external displays, ordered DP-4, DP-5, DP-3 from left to right. DP-4 is portrait at 125% scale. DP-5 and DP-3 are landscape at 100%. All three use 1920×1080 at 60 Hz. Positions use scaled, rotated dimensions. The portrait screen is 864 logical pixels wide, so the middle display starts at x=864 and the right display starts at x=2784.
 
 After saving, run `hyprctl reload` and check `hyprctl configerrors`.
 
