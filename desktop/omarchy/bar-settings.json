@@ -1,0 +1,18 @@
+{
+  "bar": {
+    "id": "fperez.bar",
+    "position": "bottom",
+    "layoutLocked": true,
+    "screenSizes": {
+      "DP-5": {
+        "horizontal": 30
+      },
+      "DP-3": {
+        "horizontal": 28
+      },
+      "DP-4": {
+        "horizontal": 26
+      }
+    }
+  }
+}
